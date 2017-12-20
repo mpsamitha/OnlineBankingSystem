@@ -7,7 +7,7 @@
 	<title>AccessDenied page</title>
 </head>
 <body>
-	<div class="container">
+	<div class="container alert alert-danger">
 		<div class="authbar">
 			<span>Dear <strong>${loggedinuser}</strong>, You are not authorized to access this page.</span> <span class="floatRight"><a href="<c:url value="/logout" />">Logout</a></span>
 		</div>

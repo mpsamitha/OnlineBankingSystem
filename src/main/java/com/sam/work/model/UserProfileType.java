@@ -3,6 +3,7 @@ package com.sam.work.model;
 import java.io.Serializable;
 
 public enum UserProfileType implements Serializable{
+	CUSTOMER("CUSTOMER"),
 	USER("USER"),
 	DBA("DBA"),
 	ADMIN("ADMIN");

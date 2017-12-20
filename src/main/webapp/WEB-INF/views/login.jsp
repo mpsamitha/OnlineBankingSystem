@@ -17,7 +17,7 @@
 	<link href="<c:url value='/static/css/font-awesome.css' />"  rel="stylesheet"></link>
 	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" />
 
-	<style type="text/css"> body{background-repeat: no-repeat; background-size: cover;} </style>
+	<style type="text/css"> body{background-repeat: no-repeat; background-size: cover; background-attachment: fixed;} </style>
 	<style type="text/css">#loading {position: fixed; width: 100%; height: 100vh; background: #fff url('<c:url value='/static/img/loader.gif' />') no-repeat center center; z-index: 9999;}</style>
 
 </head>
@@ -31,8 +31,8 @@
 			</script>
 		</div>
 	
-	    <div class="col-md-4 col-md-offset-7">
-	    	<label><strong>More Details:</strong></label>
+	    <div class="col-md-4 col-sm-offset-8">
+	    	
 	    	<button class="btn btn-success">
 				<span class="fa-stack fa-lg">
 			  		<i class="fa fa-globe fa-stack-2x"></i>
@@ -61,7 +61,7 @@
 			
 		</div>
 
-	<br/><br/><br/><br/><br/>
+	<br/><br/><br/><br/><br/><br/><br/>
 	<div class="container">
     <div class="row">
         <div class="col-md-4 col-md-offset-8">
